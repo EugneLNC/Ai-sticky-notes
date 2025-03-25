@@ -1,0 +1,7 @@
+openai==0.28.0
+PyQt5==5.15.11
+PyQt5_sip==12.17.0
+PyQt5_sip==12.11.0
+pywin32==308
+pywin32==305.1
+Requests==2.32.3

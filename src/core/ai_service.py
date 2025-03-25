@@ -12,7 +12,7 @@ ai_service.py
 from openai import OpenAI
 
 class AIService:
-    def __init__(self, api_key: str = "sk-4a37adb4d4554e8494a6cba3c2a10b8d", 
+    def __init__(self, api_key: str = "your api key", 
                  base_url: str = "https://api.deepseek.com", 
                  model: str = "deepseek-chat"):
         # 直接使用官方示例的方式初始化客户端

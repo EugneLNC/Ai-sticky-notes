@@ -56,7 +56,7 @@ class MainWindow(QMainWindow):
 
         # 初始化数据库和 AI 服务（使用真实的 DeepSeek API Key）
         self.db = Database()
-        self.ai_service = AIService(api_key="sk-4a37adb4d4554e8494a6cba3c2a10b8d", model="deepseek-chat")
+        self.ai_service = AIService(api_key="your api key", model="deepseek-chat")
 
         # 主体布局
         central_widget = QWidget()
